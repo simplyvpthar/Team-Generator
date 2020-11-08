@@ -12,7 +12,6 @@ so that I have quick access to emails and GitHub profiles
 ```
 
 ![Employee Summary 1](./Assets/10-OOP-homework-demo-1.png)
-![Employee Summary 2](./Assets/10-OOP-homework-demo-2.png)
 
 
 ### Minimum Requirements
