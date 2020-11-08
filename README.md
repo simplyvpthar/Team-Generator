@@ -11,7 +11,7 @@ I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles
 ```
 
-![Employee Summary 1](./Assets/10-OOP-homework-demo-1.png)
+![Employee Summary 1](./Assets/Team Screenshot.png)
 
 
 ### Minimum Requirements
@@ -29,8 +29,8 @@ so that I have quick access to emails and GitHub profiles
 
 Required to submit the following:
 
-* The URL of the GitHub repository
+* The URL of the GitHub repository:  https://github.com/simplyvpthar/Team-Generator.git
 
-* A video demonstrating the entirety of the app's functionality 
+* A video demonstrating the entirety of the app's functionality:  https://drive.google.com/file/d/1x-jgRxFjIoYAnsmLO7tE8GyipgmnqxBy/view 
 
 
