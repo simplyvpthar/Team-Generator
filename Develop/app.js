@@ -16,62 +16,62 @@ let employees = [];
 const addEmployee = {
     name: "addEmployee",
     type: "list",
-    message: "Enter your employee type to add to the team.",
+    message: "Select the employee type to add to the team.",
     choices: ["Engineer", "Intern", "None"]
 };
 
 const managerQuestions = [{
     name: "name",
     type: "input",
-    message: "What is the manager's first and last name?"
+    message: "Enter manager's first and last name."
 }, {
     name: "id",
     type: "input",
-    message: "What is the manager's id?"
+    message: "Enter the manager's id."
 }, {
     name: "email",
     type: "input",
-    message: "What is the manager's email?"
+    message: "Enter the manager's email."
 }, {
     name: "officeNumber",
     type: "input",
-    message: "What is the manager's office number?"
+    message: "Enter the manager's office number."
 }];
 
 const engineerQuestions = [{
     name: "name",
     type: "input",
-    message: "What is the engineer's first and last name?"
+    message: "Enter the engineer's first and last name."
 }, {
     name: "id",
     type: "input",
-    message: "What is the engineer's employee id?"
+    message: "Enter the engineer's employee id."
 }, {
     name: "email",
     type: "input",
-    message: "What is the engineer's email?"
+    message: "Enter the engineer's email."
 }, {
     name: "github",
     type: "input",
-    message: "What is the engineer's github?"
+    message: "Enter the engineer's github."
 }];
 
 const internQuestions = [{
     name: "name",
     type: "input",
-    message: "What is the interns's first and last name?"
+    message: "Enter the interns's first and last name."
 }, {
     name: "id",
     type: "input",
-    message: "What is the intern's employee id?"
+    message: "Enter the intern's employee id."
 }, {
     name: "email",
     type: "input",
-    message: "What is the intern's email?"
+    message: "Enter the intern's email."
 }, {
     name: "school",
     type: "input",
-    message: "Where does the intern attend school?"
+    message: "Enter the intern current school."
 }];
 
 const addEmployeePrompt = () => {
@@ -86,7 +86,7 @@ const addEmployeePrompt = () => {
             case "None":
                 fs.writeFile(outputPath, render(employees), (err) => {
                     if (err) throw err;
-                    console.log('File saved in the output folder.');
+                    console.log('File is saved in the output folder.');
                 })
                 break;
         };
